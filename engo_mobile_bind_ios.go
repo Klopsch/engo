@@ -1,5 +1,5 @@
-//+build ios
-//+build mobilebind
+//go:build ios && mobilebind
+// +build ios,mobilebind
 
 package engo
 
@@ -9,7 +9,7 @@ package engo
 // #import <UIKit/UIKit.h>
 import "C"
 
-//TouchEvent handles the touch events sent from ios and puts them in the InputManager
+// TouchEvent handles the touch events sent from ios and puts them in the InputManager
 func TouchEvent(x, y, id, action int) {
 	Input.Mouse.X = float32(x) / opts.GlobalScale.X
 	Input.Mouse.Y = float32(y) / opts.GlobalScale.Y

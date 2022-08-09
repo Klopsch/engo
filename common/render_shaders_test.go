@@ -1,4 +1,5 @@
-//+build nottesting
+//go:build nottesting
+// +build nottesting
 
 package common
 

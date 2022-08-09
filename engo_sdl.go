@@ -1,3 +1,4 @@
+//go:build sdl
 // +build sdl
 
 package engo
@@ -348,8 +349,8 @@ func SetVSync(enabled bool) {
 	}
 }
 
-//SetCursorVisibility sets the visibility of the cursor.
-//If true the cursor is visible, if false the cursor is not.
+// SetCursorVisibility sets the visibility of the cursor.
+// If true the cursor is visible, if false the cursor is not.
 func SetCursorVisibility(visible bool) {
 	if visible {
 		sdl.ShowCursor(sdl.ENABLE)

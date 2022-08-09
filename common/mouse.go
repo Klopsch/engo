@@ -151,11 +151,11 @@ func (m *MouseSystem) New(w *ecs.World) {
 }
 
 // Add adds a new entity to the MouseSystem.
-// * RenderComponent is only required if you're using the HUDShader on this Entity.
-// * SpaceComponent is required whenever you want to know specific mouse-events on this Entity (like hover,
-//   click, etc.). If you don't need those, then you can omit the SpaceComponent.
-// * MouseComponent is always required.
-// * BasicEntity is always required.
+//   - RenderComponent is only required if you're using the HUDShader on this Entity.
+//   - SpaceComponent is required whenever you want to know specific mouse-events on this Entity (like hover,
+//     click, etc.). If you don't need those, then you can omit the SpaceComponent.
+//   - MouseComponent is always required.
+//   - BasicEntity is always required.
 func (m *MouseSystem) Add(basic *ecs.BasicEntity, mouse *MouseComponent, space *SpaceComponent, render *RenderComponent) {
 	m.entities = append(m.entities, mouseEntity{basic, mouse, space, render})
 }

@@ -227,7 +227,7 @@ const (
 	Bat
 )
 
-//Test GroupSolid working
+// Test GroupSolid working
 func Test_GroupSolid(t *testing.T) {
 	//All items in same place, have to collide
 	CE := func(m, g CollisionGroup) collisionEntity {

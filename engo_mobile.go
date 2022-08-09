@@ -191,9 +191,9 @@ func SetCursor(Cursor) {
 	notImplemented("SetCursor")
 }
 
-//SetCursorVisibility sets the visibility of the cursor.
-//If true the cursor is visible, if false the cursor is not.
-//Does nothing in mobile since there's no visible cursor to begin with
+// SetCursorVisibility sets the visibility of the cursor.
+// If true the cursor is visible, if false the cursor is not.
+// Does nothing in mobile since there's no visible cursor to begin with
 func SetCursorVisibility(visible bool) {}
 
 // SetTitle has no effect on mobile

@@ -9,12 +9,12 @@ func Inf(sign int) float32 {
 	return engomath.Inf(sign)
 }
 
-// NaN returns an IEEE 754 ``not-a-number'' value.
+// NaN returns an IEEE 754 “not-a-number” value.
 func NaN() float32 {
 	return engomath.NaN()
 }
 
-// IsNaN reports whether f is an IEEE 754 ``not-a-number'' value.
+// IsNaN reports whether f is an IEEE 754 “not-a-number” value.
 func IsNaN(f float32) bool {
 	return engomath.IsNaN(f)
 }

@@ -350,7 +350,7 @@ func (qt *Quadtree) Retrieve(find AABB, filter func(aabb AABBer) bool) []AABBer 
 	return foundIntersections
 }
 
-//Clear removes all items from the quadtree
+// Clear removes all items from the quadtree
 func (qt *Quadtree) Clear() {
 	bounds := qt.root.Bounds
 	qt.freeQuadtreeNode(qt.root)

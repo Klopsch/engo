@@ -7,6 +7,7 @@ import (
 // Acos returns the arccosine, in radians, of x.
 //
 // Special case is:
+//
 //	Acos(x) = NaN if x < -1 or x > 1
 func Acos(x float32) float32 {
 	return engomath.Acos(x)
@@ -15,6 +16,7 @@ func Acos(x float32) float32 {
 // Asin returns the arcsine, in radians, of x.
 //
 // Special cases are:
+//
 //	Asin(±0) = ±0
 //	Asin(x) = NaN if x < -1 or x > 1
 func Asin(x float32) float32 {
@@ -24,8 +26,9 @@ func Asin(x float32) float32 {
 // Atan returns the arctangent, in radians, of x.
 //
 // Special cases are:
-//      Atan(±0) = ±0
-//      Atan(±Inf) = ±Pi/2
+//
+//	Atan(±0) = ±0
+//	Atan(±Inf) = ±Pi/2
 func Atan(x float32) float32 {
 	return engomath.Atan(x)
 }
@@ -35,6 +38,7 @@ func Atan(x float32) float32 {
 // of the return value.
 //
 // Special cases are (in order):
+//
 //	Atan2(y, NaN) = NaN
 //	Atan2(NaN, x) = NaN
 //	Atan2(+0, x>=0) = +0
@@ -59,6 +63,7 @@ func Atan2(y, x float32) float32 {
 // Atanh returns the inverse hyperbolic tangent of x.
 //
 // Special cases are:
+//
 //	Atanh(1) = +Inf
 //	Atanh(±0) = ±0
 //	Atanh(-1) = -Inf
@@ -71,6 +76,7 @@ func Atanh(x float32) float32 {
 // Cbrt returns the cube root of x.
 //
 // Special cases are:
+//
 //	Cbrt(±0) = ±0
 //	Cbrt(±Inf) = ±Inf
 //	Cbrt(NaN) = NaN
@@ -81,6 +87,7 @@ func Cbrt(x float32) float32 {
 // Ceil returns the least integer value greater than or equal to x.
 //
 // Special cases are:
+//
 //	Ceil(±0) = ±0
 //	Ceil(±Inf) = ±Inf
 //	Ceil(NaN) = NaN
@@ -97,6 +104,7 @@ func Copysign(x, y float32) float32 {
 // Dim returns the maximum of x-y or 0.
 //
 // Special cases are:
+//
 //	Dim(+Inf, +Inf) = NaN
 //	Dim(-Inf, -Inf) = NaN
 //	Dim(x, NaN) = Dim(NaN, x) = NaN
@@ -107,6 +115,7 @@ func Dim(x, y float32) float32 {
 // Erf returns the error function of x.
 //
 // Special cases are:
+//
 //	Erf(+Inf) = 1
 //	Erf(-Inf) = -1
 //	Erf(NaN) = NaN
@@ -117,6 +126,7 @@ func Erf(x float32) float32 {
 // Erfc returns the complementary error function of x.
 //
 // Special cases are:
+//
 //	Erfc(+Inf) = 0
 //	Erfc(-Inf) = 2
 //	Erfc(NaN) = NaN
@@ -127,8 +137,10 @@ func Erfc(x float32) float32 {
 // Exp returns e**x, the base-e exponential of x.
 //
 // Special cases are:
+//
 //	Exp(+Inf) = +Inf
 //	Exp(NaN) = NaN
+//
 // Very large values overflow to 0 or +Inf.
 // Very small values underflow to 1.
 func Exp(x float32) float32 {
@@ -146,9 +158,11 @@ func Exp2(x float32) float32 {
 // It is more accurate than Exp(x) - 1 when x is near zero.
 //
 // Special cases are:
+//
 //	Expm1(+Inf) = +Inf
 //	Expm1(-Inf) = -1
 //	Expm1(NaN) = NaN
+//
 // Very large values overflow to -1 or +Inf.
 func Expm1(x float32) float32 {
 	return engomath.Expm1(x)
@@ -179,6 +193,7 @@ func Float64frombits(b uint64) float64 {
 // Floor returns the greatest integer value less than or equal to x.
 //
 // Special cases are:
+//
 //	Floor(±0) = ±0
 //	Floor(±Inf) = ±Inf
 //	Floor(NaN) = NaN
@@ -192,6 +207,7 @@ func Floor(x float32) float32 {
 // with the absolute value of frac in the interval [½, 1).
 //
 // Special cases are:
+//
 //	Frexp(±0) = ±0, 0
 //	Frexp(±Inf) = ±Inf, 0
 //	Frexp(NaN) = NaN, 0
@@ -202,6 +218,7 @@ func Frexp(f float32) (frac float32, exp int) {
 // Gamma returns the Gamma function of x.
 //
 // Special cases are:
+//
 //	Gamma(+Inf) = +Inf
 //	Gamma(+0) = +Inf
 //	Gamma(-0) = -Inf
@@ -216,6 +233,7 @@ func Gamma(x float32) float32 {
 // unnecessary overflow and underflow.
 //
 // Special cases are:
+//
 //	Hypot(±Inf, q) = +Inf
 //	Hypot(p, ±Inf) = +Inf
 //	Hypot(NaN, q) = NaN
@@ -227,6 +245,7 @@ func Hypot(p, q float32) float32 {
 // J0 returns the order-zero Bessel function of the first kind.
 //
 // Special cases are:
+//
 //	J0(±Inf) = 0
 //	J0(0) = 1
 //	J0(NaN) = NaN
@@ -237,6 +256,7 @@ func J0(x float32) float32 {
 // J1 returns the order-one Bessel function of the first kind.
 //
 // Special cases are:
+//
 //	J1(±Inf) = 0
 //	J1(NaN) = NaN
 func J1(x float32) float32 {
@@ -246,6 +266,7 @@ func J1(x float32) float32 {
 // Jn returns the order-n Bessel function of the first kind.
 //
 // Special cases are:
+//
 //	Jn(n, ±Inf) = 0
 //	Jn(n, NaN) = NaN
 func Jn(n int, x float32) float32 {
@@ -256,6 +277,7 @@ func Jn(n int, x float32) float32 {
 // It returns frac × 2**exp.
 //
 // Special cases are:
+//
 //	Ldexp(±0, exp) = ±0
 //	Ldexp(±Inf, exp) = ±Inf
 //	Ldexp(NaN, exp) = NaN
@@ -266,6 +288,7 @@ func Ldexp(frac float32, exp int) float32 {
 // Lgamma returns the natural logarithm and sign (-1 or +1) of Gamma(x).
 //
 // Special cases are:
+//
 //	Lgamma(+Inf) = +Inf
 //	Lgamma(0) = +Inf
 //	Lgamma(-integer) = +Inf
@@ -278,6 +301,7 @@ func Lgamma(x float32) (lgamma float32, sign int) {
 // Log returns the natural logarithm of x.
 //
 // Special cases are:
+//
 //	Log(+Inf) = +Inf
 //	Log(0) = -Inf
 //	Log(x < 0) = NaN
@@ -296,6 +320,7 @@ func Log10(x float32) float32 {
 // It is more accurate than Log(1 + x) when x is near zero.
 //
 // Special cases are:
+//
 //	Log1p(+Inf) = +Inf
 //	Log1p(±0) = ±0
 //	Log1p(-1) = -Inf
@@ -314,6 +339,7 @@ func Log2(x float32) float32 {
 // Max returns the larger of x or y.
 //
 // Special cases are:
+//
 //	Max(x, +Inf) = Max(+Inf, x) = +Inf
 //	Max(x, NaN) = Max(NaN, x) = NaN
 //	Max(+0, ±0) = Max(±0, +0) = +0
@@ -325,6 +351,7 @@ func Max(x, y float32) float32 {
 // Min returns the smaller of x or y.
 //
 // Special cases are:
+//
 //	Min(x, -Inf) = Min(-Inf, x) = -Inf
 //	Min(x, NaN) = Min(NaN, x) = NaN
 //	Min(-0, ±0) = Min(±0, -0) = -0
@@ -337,6 +364,7 @@ func Min(x, y float32) float32 {
 // sign agrees with that of x.
 //
 // Special cases are:
+//
 //	Mod(±Inf, y) = NaN
 //	Mod(NaN, y) = NaN
 //	Mod(x, 0) = NaN
@@ -350,6 +378,7 @@ func Mod(x, y float32) float32 {
 // that sum to f.  Both values have the same sign as f.
 //
 // Special cases are:
+//
 //	Modf(±Inf) = ±Inf, NaN
 //	Modf(NaN) = NaN, NaN
 func Modf(f float32) (int float32, frac float32) {
@@ -359,6 +388,7 @@ func Modf(f float32) (int float32, frac float32) {
 // Remainder returns the IEEE 754 floating-point remainder of x/y.
 //
 // Special cases are:
+//
 //	Remainder(±Inf, y) = NaN
 //	Remainder(NaN, y) = NaN
 //	Remainder(x, 0) = NaN
@@ -371,6 +401,7 @@ func Remainder(x, y float32) float32 {
 // Sincos returns Sin(x), Cos(x).
 //
 // Special cases are:
+//
 //	Sincos(±0) = ±0, 1
 //	Sincos(±Inf) = NaN, NaN
 //	Sincos(NaN) = NaN, NaN
@@ -381,6 +412,7 @@ func Sincos(x float32) (sin, cos float32) {
 // Tan returns the tangent of the radian argument x.
 //
 // Special cases are:
+//
 //	Tan(±0) = ±0
 //	Tan(±Inf) = NaN
 //	Tan(NaN) = NaN
@@ -391,6 +423,7 @@ func Tan(x float32) float32 {
 // Trunc returns the integer value of x.
 //
 // Special cases are:
+//
 //	Trunc(±0) = ±0
 //	Trunc(±Inf) = ±Inf
 //	Trunc(NaN) = NaN
@@ -401,6 +434,7 @@ func Trunc(x float32) float32 {
 // Y0 returns the order-zero Bessel function of the second kind.
 //
 // Special cases are:
+//
 //	Y0(+Inf) = 0
 //	Y0(0) = -Inf
 //	Y0(x < 0) = NaN
@@ -412,6 +446,7 @@ func Y0(x float32) float32 {
 // Y1 returns the order-one Bessel function of the second kind.
 //
 // Special cases are:
+//
 //	Y1(+Inf) = 0
 //	Y1(0) = -Inf
 //	Y1(x < 0) = NaN
@@ -423,6 +458,7 @@ func Y1(x float32) float32 {
 // Yn returns the order-n Bessel function of the second kind.
 //
 // Special cases are:
+//
 //	Yn(n, +Inf) = 0
 //	Yn(n > 0, 0) = -Inf
 //	Yn(n < 0, 0) = +Inf if n is odd, -Inf if n is even

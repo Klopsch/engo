@@ -59,9 +59,12 @@ type textureAtlasLoader struct {
 // for sub textures/images in engo.Files, subtextures keep their path url (with appended extension from main image path if it does not exist),
 // the main image is loaded in reference to the directory of the xml file
 // For example this sub texture:
-//  <SubTexture name="subimg" x="10" y="10" width="50" height="50"/>
+//
+//	<SubTexture name="subimg" x="10" y="10" width="50" height="50"/>
+//
 // can be retrieved with this go code
-//  texture, err := common.LoadedSprite("subimg.png")
+//
+//	texture, err := common.LoadedSprite("subimg.png")
 func (t *textureAtlasLoader) Load(url string, data io.Reader) error {
 	atlas, err := createAtlasFromXML(data, url)
 	if err != nil {

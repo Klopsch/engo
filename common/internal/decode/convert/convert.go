@@ -310,7 +310,7 @@ func (s *Stereo16) Close() error {
 	return s.source.Close()
 }
 
-//ReadSeekCloser is an io.ReadSeeker and an io.Closer
+// ReadSeekCloser is an io.ReadSeeker and an io.Closer
 type ReadSeekCloser interface {
 	io.ReadSeeker
 	io.Closer
