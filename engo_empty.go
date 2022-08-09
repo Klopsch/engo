@@ -1,3 +1,4 @@
+//go:build headless
 // +build headless
 
 package engo
@@ -124,7 +125,7 @@ func SetCursor(c Cursor) {}
 // SetVSync does nothing since there's no monitor to synchronize with
 func SetVSync(enabled bool) {}
 
-//SetCursorVisibility does nothing since there's no headless cursor
+// SetCursorVisibility does nothing since there's no headless cursor
 func SetCursorVisibility(visible bool) {}
 
 // openFile is the desktop-specific way of opening a file

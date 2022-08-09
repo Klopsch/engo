@@ -1,4 +1,5 @@
-//+build mobilebind
+//go:build mobilebind
+// +build mobilebind
 
 package engo
 
@@ -122,9 +123,9 @@ func SetCursor(Cursor) {
 	notImplemented("SetCursor")
 }
 
-//SetCursorVisibility sets the visibility of the cursor.
-//If true the cursor is visible, if false the cursor is not.
-//Does nothing in mobile since there's no visible cursor to begin with
+// SetCursorVisibility sets the visibility of the cursor.
+// If true the cursor is visible, if false the cursor is not.
+// Does nothing in mobile since there's no visible cursor to begin with
 func SetCursorVisibility(visible bool) {}
 
 // SetTitle has no effect on mobile
@@ -168,7 +169,7 @@ func mobileDraw(defaultScene Scene) {
 	Input.Mouse.Action = Neutral
 }
 
-//MobileStop handles when the game is closed
+// MobileStop handles when the game is closed
 func MobileStop() {
 	closeEvent()
 	ticker.Stop()

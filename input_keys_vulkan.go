@@ -1,3 +1,4 @@
+//go:build vulkan
 // +build vulkan
 
 package engo

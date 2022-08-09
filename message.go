@@ -4,7 +4,7 @@ import (
 	"sync"
 )
 
-//A MessageHandler is used to dispatch a message to the subscribed handler.
+// A MessageHandler is used to dispatch a message to the subscribed handler.
 type MessageHandler func(msg Message)
 
 // MessageHandlerId is used to track handlers, each handler will get a unique ID

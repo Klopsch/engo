@@ -1,4 +1,5 @@
-//+build js
+//go:build js
+// +build js
 
 package engo
 
@@ -451,8 +452,8 @@ func SetCursor(c Cursor) {
 	}
 }
 
-//SetCursorVisibility sets the visibility of the cursor.
-//If true the cursor is visible, if false the cursor is not.
+// SetCursorVisibility sets the visibility of the cursor.
+// If true the cursor is visible, if false the cursor is not.
 func SetCursorVisibility(visible bool) {
 	if visible {
 		document.Get("body").Get("style").Set("cursor", "default")

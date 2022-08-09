@@ -18,18 +18,21 @@ func toExtern(i Span) engospan.Span {
 }
 
 // Add 2 span togheter
+//
 //	[a, b] + [c, d] = [a+c, b+d]
 func (s0 Span) Add(s1 Span) Span {
 	return toIntern(toExtern(s0).Add(toExtern(s1)))
 }
 
 // Sub 2 span togheter
+//
 //	[a, b] - [c, d] = [a-c, b-d]
 func (s0 Span) Sub(s1 Span) Span {
 	return toIntern(toExtern(s0).Sub(toExtern(s1)))
 }
 
 // Mul multiply this these 2 span togheter
+//
 //	[a, b] * [c, d] = [min(ac, ad, bc, bd), max(ac, ad, bc, bd)]
 func (s0 Span) Mul(s1 Span) Span {
 	return toIntern(toExtern(s0).Mul(toExtern(s1)))

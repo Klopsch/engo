@@ -1,4 +1,5 @@
-//+build vulkan
+//go:build vulkan
+// +build vulkan
 
 package engo
 
@@ -329,8 +330,8 @@ func SetCursor(c Cursor) {
 	Window.SetCursor(cur)
 }
 
-//SetCursorVisibility sets the visibility of the cursor.
-//If true the cursor is visible, if false the cursor is not.
+// SetCursorVisibility sets the visibility of the cursor.
+// If true the cursor is visible, if false the cursor is not.
 func SetCursorVisibility(visible bool) {
 	if visible {
 		glfw.GetCurrentContext().SetInputMode(glfw.CursorMode, glfw.CursorNormal)
