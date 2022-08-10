@@ -1,4 +1,4 @@
-module github.com/EngoEngine/engo
+module github.com/klopsch/engo
 
 require (
 	github.com/EngoEngine/ecs v1.0.5
