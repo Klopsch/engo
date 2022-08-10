@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/EngoEngine/ecs"
+	"github.com/klopsch/ecs"
 )
 
 type testScene struct{}

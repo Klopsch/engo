@@ -1,7 +1,7 @@
 package math
 
 import (
-	engomath "github.com/EngoEngine/math"
+	engomath "github.com/klopsch/math"
 )
 
 // Sinh returns the hyperbolic sine of x.

@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/EngoEngine/engo/common/internal/decode/convert"
+	"github.com/klopsch/engo/common/internal/decode/convert"
 )
 
 // Stream is a decoded audio stream.

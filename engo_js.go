@@ -16,7 +16,7 @@ import (
 	"syscall/js"
 	"time"
 
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/gl"
 )
 
 var (

@@ -1,7 +1,7 @@
 package imath
 
 import (
-	engoimath "github.com/EngoEngine/math/imath"
+	engoimath "github.com/klopsch/math/imath"
 )
 
 // Integer limit values.

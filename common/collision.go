@@ -1,9 +1,9 @@
 package common
 
 import (
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/engo/math"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/engo/math"
 )
 
 // Shape is a shape used for a SpaceComponent's hitboxes. It is composed of

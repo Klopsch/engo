@@ -1,7 +1,7 @@
 package math
 
 import (
-	engomath "github.com/EngoEngine/math"
+	engomath "github.com/klopsch/math"
 )
 
 // Tanh returns the hyperbolic tangent of x.

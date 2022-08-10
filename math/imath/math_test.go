@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/EngoEngine/engo/math/imath"
+	"github.com/klopsch/engo/math/imath"
 )
 
 func TestSqrt(t *testing.T) {

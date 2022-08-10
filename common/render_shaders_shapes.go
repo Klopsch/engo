@@ -1,10 +1,10 @@
 package common
 
 import (
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/gl"
-	"github.com/EngoEngine/math"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/gl"
+	"github.com/klopsch/math"
 )
 
 type legacyShader struct {

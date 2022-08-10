@@ -5,7 +5,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/EngoEngine/ecs"
+	"github.com/klopsch/ecs"
 )
 
 // BackEnd represents the back end used for the window management / GL Surface

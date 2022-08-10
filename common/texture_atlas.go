@@ -6,8 +6,8 @@ import (
 	"io"
 	"path"
 
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/gl"
 )
 
 // TextureAtlas is a collection of small textures grouped into a big image

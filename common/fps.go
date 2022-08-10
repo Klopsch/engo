@@ -6,8 +6,8 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
 
 	"golang.org/x/image/font/gofont/gomonobold"
 )

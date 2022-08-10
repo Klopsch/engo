@@ -4,9 +4,9 @@ import (
 	"errors"
 	"log"
 
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/engo/math"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/engo/math"
+	"github.com/klopsch/gl"
 )
 
 var spritesheetCache = make(map[string]*Spritesheet)

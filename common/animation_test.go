@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/gl"
 )
 
 type TestDrawable struct {

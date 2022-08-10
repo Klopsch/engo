@@ -9,8 +9,8 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/gl"
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
 	"golang.org/x/image/font"

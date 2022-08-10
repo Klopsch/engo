@@ -1,7 +1,7 @@
 package math
 
 import (
-	engomath "github.com/EngoEngine/math"
+	engomath "github.com/klopsch/math"
 )
 
 // Clamp returns f clamped to [low, high]

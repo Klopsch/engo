@@ -1,7 +1,7 @@
 package math
 
 import (
-	engomath "github.com/EngoEngine/math"
+	engomath "github.com/klopsch/math"
 )
 
 // Signbit returns true if x is negative or negative zero.

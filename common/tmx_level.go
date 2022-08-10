@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/EngoEngine/engo"
+	"github.com/klopsch/engo"
 	"github.com/Noofbiz/tmx"
 )
 

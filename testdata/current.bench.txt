@@ -1,6 +1,6 @@
 goos: linux
 goarch: amd64
-pkg: github.com/EngoEngine/engo
+pkg: github.com/klopsch/engo
 BenchmarkInputMgr_AxisCleanState-4      	 3464913	       684 ns/op	       0 B/op	       0 allocs/op
 BenchmarkInputMgr_AxisFilledState-4     	 2862438	       846 ns/op	       0 B/op	       0 allocs/op
 BenchmarkInputMgr_ButtonCleanState-4    	 2665803	       909 ns/op	       0 B/op	       0 allocs/op
@@ -12,16 +12,16 @@ BenchmarkKeyMgr_FilledUpdate-4          	 6657576	       366 ns/op	       0 B/op
 BenchmarkKeyMgr_CleanSubOptimal-4       	 2596460	       903 ns/op	       0 B/op	       0 allocs/op
 BenchmarkKeyMgr_FilledSubOptimal-4      	 1982916	      1225 ns/op	       0 B/op	       0 allocs/op
 PASS
-ok  	github.com/EngoEngine/engo	31.584s
+ok  	github.com/klopsch/engo	31.584s
 PASS
-ok  	github.com/EngoEngine/engo/common	0.016s
-?   	github.com/EngoEngine/engo/common/internal/decode/convert	[no test files]
-?   	github.com/EngoEngine/engo/common/internal/decode/mp3	[no test files]
-?   	github.com/EngoEngine/engo/common/internal/decode/vorbis	[no test files]
-?   	github.com/EngoEngine/engo/common/internal/decode/wav	[no test files]
-?   	github.com/EngoEngine/engo/demos/blendmap	[no test files]
-?   	github.com/EngoEngine/engo/demos/falling	[no test files]
-?   	github.com/EngoEngine/engo/math	[no test files]
+ok  	github.com/klopsch/engo/common	0.016s
+?   	github.com/klopsch/engo/common/internal/decode/convert	[no test files]
+?   	github.com/klopsch/engo/common/internal/decode/mp3	[no test files]
+?   	github.com/klopsch/engo/common/internal/decode/vorbis	[no test files]
+?   	github.com/klopsch/engo/common/internal/decode/wav	[no test files]
+?   	github.com/klopsch/engo/demos/blendmap	[no test files]
+?   	github.com/klopsch/engo/demos/falling	[no test files]
+?   	github.com/klopsch/engo/math	[no test files]
 PASS
-ok  	github.com/EngoEngine/engo/math/imath	0.003s
-?   	github.com/EngoEngine/engo/math/span	[no test files]
+ok  	github.com/klopsch/engo/math/imath	0.003s
+?   	github.com/klopsch/engo/math/span	[no test files]

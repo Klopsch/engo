@@ -6,7 +6,7 @@ import (
 	"io"
 	"runtime"
 
-	"github.com/EngoEngine/engo/common/internal/decode/convert"
+	"github.com/klopsch/engo/common/internal/decode/convert"
 
 	"github.com/jfreymuth/oggvorbis"
 )

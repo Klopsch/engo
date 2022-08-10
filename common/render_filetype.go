@@ -18,8 +18,8 @@ import (
 	"github.com/srwiley/oksvg"
 	"github.com/srwiley/rasterx"
 
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/gl"
 )
 
 // imgLoader is the shared imageLoader for all image file formats

@@ -1,7 +1,7 @@
 # Contributing
 
 Contributions are welcome! If you want to know where to start,
-look at the [issues](https://github.com/EngoEngine/engo/issues) on github.
+look at the [issues](https://github.com/klopsch/engo/issues) on github.
 
 We are always looking for more documentation and better test coverage.
 

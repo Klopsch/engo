@@ -7,10 +7,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/engo/math"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/engo/math"
+	"github.com/klopsch/gl"
 )
 
 var (

@@ -18,8 +18,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/EngoEngine/gl"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/klopsch/gl"
 )
 
 var (

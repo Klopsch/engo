@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/gl"
 	"golang.org/x/mobile/app"
 	"golang.org/x/mobile/asset"
 	"golang.org/x/mobile/event/lifecycle"

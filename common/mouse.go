@@ -3,9 +3,9 @@ package common
 import (
 	"log"
 
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/engo/math"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/engo/math"
 )
 
 // Cursor is a reference to a GLFW-cursor - to be used with the `SetCursor` method.

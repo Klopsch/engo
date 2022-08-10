@@ -3,8 +3,8 @@ package common
 import (
 	"image/color"
 
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/gl"
 )
 
 // TriangleType is the type of triangle: Right or Isosceles.

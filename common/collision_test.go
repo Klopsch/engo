@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,10 +5,10 @@ package main
 import (
 	"image/color"
 
-	"github.com/EngoEngine/ecs"
-	"github.com/EngoEngine/engo"
-	"github.com/EngoEngine/engo/common"
-	"github.com/EngoEngine/engo/demos/demoutils"
+	"github.com/klopsch/ecs"
+	"github.com/klopsch/engo"
+	"github.com/klopsch/engo/common"
+	"github.com/klopsch/engo/demos/demoutils"
 )
 
 type DefaultScene struct{}

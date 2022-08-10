@@ -3,7 +3,7 @@ package engo
 import (
 	"testing"
 
-	"github.com/EngoEngine/engo/math"
+	"github.com/klopsch/engo/math"
 )
 
 func TestFloatEqual(t *testing.T) {

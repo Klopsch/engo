@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/EngoEngine/gl"
+	"github.com/klopsch/gl"
 	mgl "golang.org/x/mobile/gl"
 )
 
